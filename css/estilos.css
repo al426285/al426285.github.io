@@ -113,6 +113,9 @@ body{
     
 
 }
+audio {
+    max-width: -webkit-fill-available;
+}
 /*cuando deslize que lo haga despacio y no de golpe*/
 html{
     scroll-behavior:smooth;
