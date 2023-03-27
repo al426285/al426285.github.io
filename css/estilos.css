@@ -1,0 +1,141 @@
+/*ESTE ASTERISCO DE LO MAS IMPORTANTE; HACE QUE NO HAYA BORDES */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+}
+header{
+    width: 100%;
+    height: 600px;
+    background-image:url(../img/wallpaperbetter.jpg);
+    background-size:cover;
+    background-attachment: fixed;
+    background-repeat:no-repeat;
+    position: relative;
+    filter: opacity(0.9);
+}
+
+header .titulo{
+    display: flex;
+    height: 430px;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 60px;
+    padding-top: 60px;
+    color: rgb(232, 232, 232);
+    filter: blur(0);
+}
+
+nav {
+text-align: right;
+font-size: 19px;
+padding-top: 10px;
+padding-right: 10px;
+}
+nav>a{
+    color: rgb(34, 121, 197);
+    font-weight: 500;
+    margin-right: 10px;
+    text-decoration: double;
+}
+nav>a:hover{
+    text-decoration: underline 3px rgb(128, 128, 247);
+}
+.caja{/*esto viene a ser eñ contenido realmente*/
+    size-adjust: 100px;
+    text-align: center;
+
+}
+select{
+    display: inline-block;
+    background-color: rgb(237, 203, 172);
+    border-radius: 10px;
+    width: 1000px;
+    height: 50px;
+    text-align: center;
+    font-size: 18px;
+    font-family: 'Courier New', Courier, monospace;
+    max-width: 80%; /*importante para que se haga pequeño cuando se minimiza*/
+}
+select:hover{
+    background-color: rgb(236, 173, 114);
+}
+.cajones{
+    padding-top: 80px;
+    font-size: 18px;
+    text-align: center;
+    flex-direction: column;
+    align-items: center;
+}
+.zona1,.zona2,.zona3,.zona4,.zona5,.zona6,.zona7,.zona8,.zona9,.zona10,.zona11,.zona12,.zona13{
+    text-align: center;
+    background-color: aliceblue;
+
+   
+    border-radius: 25px;
+    padding: 10px 10px 10px 10px;
+    margin-bottom: 50px;
+    max-width: 50%;
+    text-align: center;
+    margin-left: 24%;
+    margin-right: 20%;
+    border-color: beige 2px;
+    padding-bottom: 30px;
+    padding-top: 30px;
+   
+}
+
+body{
+    background-image:url(../img/wallpaperbetter.jpg);
+    background-size:cover;
+
+    background-attachment: fixed;
+    background-repeat:no-repeat;
+    position: relative;
+    filter: opacity(0.9);
+
+}
+
+.enunciado{
+    padding-bottom: 15px;
+    padding-top: 4px;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.duaa{
+    padding-top: 10px;
+    padding-bottom: 15px;
+    border: rgb(117, 191, 117) 5px solid;
+    border-radius: 10px;
+    padding-bottom: 10px;
+    
+
+}
+/*cuando deslize que lo haga despacio y no de golpe*/
+html{
+    scroll-behavior:smooth;
+
+}
+audio::-webkit-media-controls-panel {
+    background-color: rgb(207, 231, 207) ; /* cambiar el color de fondo */
+    color: #212529; /* cambiar el color del texto */
+ 
+  }
+  
+  audio::-webkit-media-controls-play-button {
+    background-color: #d0deed00; /* cambiar el color del botón de reproducir */
+   
+  }
+  
+  audio::-webkit-media-controls-volume-slider {
+    background-color: #ced4da00; /* cambiar el color del control de volumen */
+  }
+  
+  audio::-webkit-media-controls-current-time-display,
+  audio::-webkit-media-controls-time-remaining-display {
+    color: #000000; /* cambiar el color de la duración del audio */
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 16px;
+  }
